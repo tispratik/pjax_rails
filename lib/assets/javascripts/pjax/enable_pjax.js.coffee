@@ -1,0 +1,1 @@
+$ -> $('a[href]:not([data-remote]):not([data-behavior]):not([data-skip-pjax]):not([href^=#]):not([href="javascript:void(0)"])').pjax('[data-pjax-container]')

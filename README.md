@@ -7,7 +7,7 @@ To activate, add this to your app/assets/javascripts/application.js (or whatever
 
     //=require pjax
 
-All links that match `$('a:not([data-remote]):not([data-behavior]):not([data-skip-pjax])')` will then use PJAX. 
+All links that match `$('a:not([data-remote]):not([data-behavior]):not([data-skip-pjax]):not([href="javascript:void(0)"])')` will then use PJAX. 
 
 The PJAX container has to be marked with data-pjax-container attribute, so for example:
 
